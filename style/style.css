@@ -86,6 +86,12 @@ input.empty {
     .storyadduc {
     display: none;
     }
+}/* 769 */
+@media screen and (min-width:0px) and (max-width: 769px) 
+{
+    .storyfive {
+    display: none;
+    }
 }
 /* 475 */
 @media screen and (min-width:0px) and (max-width: 475px) 
@@ -100,6 +106,12 @@ input.empty {
     .storyaddbes {
     display: none;
     }
+}/* medium ortalama */
+@media screen and (min-width:576px) and (max-width: 767px) 
+{
+    .mediumcenter {
+        justify-content: center;
+    }
 }
 .postimg
 {
@@ -113,4 +125,15 @@ input.empty {
     display: inline-block; /* Metni resmin yanına yerleştirmek için */
     vertical-align: top;   /* Dikey hizalamayı üste almak için */
     margin-left: 10px;     /* İsteğe bağlı: Metin ve resim arasına bir boşluk bırakmak için */
+}
+.textpage
+{
+    list-style-type:none;
+}
+.postimage2
+{
+    width: 25px; /* İstenilen genişlik */
+    height: 25px; /* İstenilen yükseklik */
+    border-radius: 50%;
+    object-fit:cover;
 }
