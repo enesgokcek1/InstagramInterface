@@ -44,96 +44,130 @@ input.empty {
     text-decoration: none;
     color: lightgrey;
 }
-@media screen and (min-width: 0px) and (max-width: 767px) 
-{
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
     .navbarsearch {
-    visibility: hidden;
+        visibility: hidden;
     }
 }
-.navbarimage
-{
-    width: 50px; /* İstenilen genişlik */
-    height: 50px; /* İstenilen yükseklik */
+
+.navbarimage {
+    width: 50px;
+    /* İstenilen genişlik */
+    height: 50px;
+    /* İstenilen yükseklik */
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
     margin-left: 15px;
 }
-.rightimage
-{
-    width: 100px; /* İstenilen genişlik */
-    height: 50px; /* İstenilen yükseklik */
+
+.rightimage {
+    width: 100px;
+    /* İstenilen genişlik */
+    height: 50px;
+    /* İstenilen yükseklik */
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
     margin-left: 15px;
 }
+
 /* 1400 */
-@media screen and (min-width:0px) and (max-width: 1400px) 
-{
+@media screen and (min-width:0px) and (max-width: 1400px) {
     .storyadd {
-    display: none;
+        display: none;
     }
 }
+
 /* 1200 */
-@media screen and (min-width:0px) and (max-width: 1200px) 
-{
+@media screen and (min-width:0px) and (max-width: 1200px) {
     .storyaddiki {
-    display: none;
+        display: none;
     }
 }
+
 /* 992 */
-@media screen and (min-width:0px) and (max-width: 992px) 
-{
+@media screen and (min-width:0px) and (max-width: 992px) {
     .storyadduc {
-    display: none;
+        display: none;
     }
-}/* 769 */
-@media screen and (min-width:0px) and (max-width: 769px) 
-{
+}
+
+/* 769 */
+@media screen and (min-width:0px) and (max-width: 769px) {
     .storyfive {
-    display: none;
+        display: none;
     }
 }
+
 /* 475 */
-@media screen and (min-width:0px) and (max-width: 475px) 
-{
+@media screen and (min-width:0px) and (max-width: 475px) {
     .storyadddort {
-    display: none;
+        display: none;
     }
 }
+
 /* 415 */
-@media screen and (min-width:0px) and (max-width: 415px) 
-{
+@media screen and (min-width:0px) and (max-width: 415px) {
     .storyaddbes {
-    display: none;
+        display: none;
     }
-}/* medium ortalama */
-@media screen and (min-width:576px) and (max-width: 767px) 
-{
+}
+
+/* medium ortalama */
+@media screen and (min-width:576px) and (max-width: 767px) {
     .mediumcenter {
         justify-content: center;
     }
 }
-.postimg
-{
-    width: 60px; /* İstenilen genişlik */
-    height: 60px; /* İstenilen yükseklik */
+
+.postimg {
+    width: 60px;
+    /* İstenilen genişlik */
+    height: 60px;
+    /* İstenilen yükseklik */
     border-radius: 50%;
-    object-fit:cover;
-    
+    object-fit: cover;
+
 }
+
 .text-container {
-    display: inline-block; /* Metni resmin yanına yerleştirmek için */
-    vertical-align: top;   /* Dikey hizalamayı üste almak için */
-    margin-left: 10px;     /* İsteğe bağlı: Metin ve resim arasına bir boşluk bırakmak için */
+    display: inline-block;
+    /* Metni resmin yanına yerleştirmek için */
+    vertical-align: top;
+    /* Dikey hizalamayı üste almak için */
+    margin-left: 10px;
+    /* İsteğe bağlı: Metin ve resim arasına bir boşluk bırakmak için */
 }
-.textpage
-{
-    list-style-type:none;
+
+.textpage {
+    list-style-type: none;
 }
-.postimage2
-{
-    width: 25px; /* İstenilen genişlik */
-    height: 25px; /* İstenilen yükseklik */
+
+.postimage2 {
+    width: 25px;
+    /* İstenilen genişlik */
+    height: 25px;
+    /* İstenilen yükseklik */
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
+}
+
+.suggestionpp {
+    width: 30px;
+    /* İstenilen genişlik */
+    height: 30px;
+    /* İstenilen yükseklik */
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.rightimageil {
+    width: 50px;
+    /* İstenilen genişlik */
+    height: 50px;
+    /* İstenilen yükseklik */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px;
 }
